@@ -156,7 +156,7 @@ def check_all_messages(message):
     response('You\'re welcome!', ['thank', 'thanks', 'thankyou'], single_response=True)
     response('Thank you!', ['i', 'love', 'you'], required_words=['love', 'you'])
     response('Great to hear!', ['fine', 'good', 'doing', 'well'], single_response=True)
-    response('I am Sylvie-the bot! I am here to guide you through this journey', ['who', 'are', 'you'], required_words=['who', 'are', 'you'])
+    response('I am Mandy-your friendly neighbourly bot! I am here to guide you through this journey', ['who', 'are', 'you'], required_words=['who', 'are', 'you'])
     response('Mental health is a state of mental well-being that enables people to cope with stress. The need for action on mental health is indisputable and urgent.', ['mental', 'health'], required_words=['mental', 'health'])
     response('Don\'t be sad, cheer up. I am here to assist you.', ['sad'], required_words=['sad'])
     response('Practice deep breathing, exercise, prioritize tasks, set boundaries, seek support, and maintain perspective for effective stress management. This can make you feel better.', ['stress'], required_words=['stress'])
